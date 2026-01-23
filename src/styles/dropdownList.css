@@ -1,0 +1,60 @@
+
+
+
+
+.dropdown-list {
+    list-style: none;
+    position: absolute;
+    background-color: rgb(31, 30, 30);
+    width: 100vw;
+    height: 100vh;
+    left: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: .3s ease left;
+    border-radius: 10px;
+}
+
+.dropdown-list.active {
+    left: 100%;
+}
+
+.dropdown-list a {
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+}
+
+.dropdown-list a::after {
+    content: attr(data-after);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: rgb(240, 240, 255, 0.021);
+    font-size: 16rem;
+    letter-spacing: 50px;
+    z-index: -1;
+    /* Corrected: Added 's' for seconds */
+    transition: .3s ease letter-spacing;
+}
+
+/* This will show the effect on the specific link being hovered over, not all at once */
+.dropdown-list li:hover a::after {
+    transform: translate(-50%, -50%) scale(1);
+    letter-spacing: initial;
+}
+
+.dropdown-list a:hover {
+    color: rgb(255, 77, 0); /* Highlight color from .section-title span */
+}

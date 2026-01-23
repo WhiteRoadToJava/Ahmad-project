@@ -1,0 +1,47 @@
+.slide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.slide {
+  width: 100%;
+  height: 60vw;
+}
+.slide img {
+  width: 100%;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.5s ease;
+}
+
+.arrou {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.arrou:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.left {
+  left: 10px;
+  border-radius: 50% 0 0 50%;
+}
+.right {
+  right: 10px;
+  border-radius: 0 50% 50% 0;
+}
