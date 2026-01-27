@@ -9,7 +9,7 @@ const TopServices = () => {
     <div className="top-services-container">
       <div className="top-services-content">
       <h1>Unsere Leistungen für Sie</h1>
-      <p>JMU Garten- und Lanschaftsbau</p>
+      <p>BROTHERS GARTEN-LANDSCHAFTSBAU</p>
       </div>
       <div className="top-services-cards">
         {services.map((service, index) => {

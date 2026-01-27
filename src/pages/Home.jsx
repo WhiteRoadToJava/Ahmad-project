@@ -10,7 +10,6 @@ import ContactForm from '../component/homePage_element/ContactForm.jsx'
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Header />
       <Hero />
       <TopServices />

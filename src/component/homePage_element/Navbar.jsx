@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../../styles/Navbar.css";
 import { Link } from "react-router-dom";
 import DropdownList from "../../component/DropdownList";
+import { brandImages } from "../../assets/assiets"; 
 const dropdownList = [
   {
     link: "/",
@@ -47,7 +48,7 @@ const Navbar = () => {
           scrolled ? "navbar-container scrolled" : "navbar-container"
         }`}
       >
-        <div>logo</div>
+        <div><img className="brand-logo" src={brandImages[0]} alt="" /></div>
 
         <div>
           <ul className="navbar-links">
@@ -70,7 +71,10 @@ const Navbar = () => {
             <div className="bar"></div>
           </div>
           <div className="btn-container">
-            <button className="btn">Book a Call</button>
+            <Link to='/contact'>
+              <button className="btn" >Book a Call</button>
+            </Link>
+            
           </div>
         </div>
       </div>

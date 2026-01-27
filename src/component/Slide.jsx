@@ -21,6 +21,17 @@ const Slide = ({ images }) => {
     setImageSrc(images[index]);
   };
 
+
+  useEffect(() => {
+    let interval = null;
+    interval = setInterval(() => {
+      hankdleClick(index + 1);
+    }, 12000);
+    return () => {
+      clearInterval(interval);
+    };
+
+  }, [index])
         
 
   return (
