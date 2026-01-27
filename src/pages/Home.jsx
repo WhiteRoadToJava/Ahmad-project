@@ -5,6 +5,7 @@ import TopServices from '../component/homePage_element/TopServices.jsx'
 import Hero from '../component/homePage_element/Hero.jsx'
 import Footer from '../component/homePage_element/Footer.jsx'
 import ContactForm from '../component/homePage_element/ContactForm.jsx'
+import WelcomeVideo from '../component/homePage_element/WelcomeVideo.jsx'
 
 
 const Home = () => {
@@ -14,8 +15,8 @@ const Home = () => {
       <Hero />
       <TopServices />
       <ContactForm />
+      <WelcomeVideo />
       <Footer />
-
     </div>
   )
 }
