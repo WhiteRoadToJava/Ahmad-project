@@ -56,7 +56,7 @@ const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/Services">Services</Link>
+              <Link to="/services">Services</Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>
@@ -86,5 +86,4 @@ const Navbar = () => {
     </>
   );
 };
-
 export default Navbar;

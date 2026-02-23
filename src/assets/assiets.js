@@ -105,4 +105,11 @@ export const icons = [
 ];
 
 
+export const businessLocation = {
+        Latitude: 51.85966,
+        Longitude: 9.58552,
+}
+        
+
+
 

@@ -34,7 +34,12 @@ const Footer = () => {
         <p>+49 1577 9878532</p>
         <p><span>Mardieksweg 39</span><br />37627 Stadtoldendorf</p>
       </div>
-      <p>Copyright &copy; 2025 BROTHERS GRADEN</p>
+      
+      <div className="footer-links">
+        <p>Copyright &copy; 2025 BROTHERS GRADEN</p>
+        <a href="/privacy-policy">Datenschutz</a>
+        <a href="/imprint">Impressum</a>
+      </div>
     </div>
   );
 };

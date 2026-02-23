@@ -1,0 +1,14 @@
+.map-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px; 
+        margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+        .map-container {
+                flex-direction: column;
+                align-items: center;
+                }
+        }
