@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-brand">
         <h1>
-          BRODERS <span>GRADEN</span>
+          BROTHERS <span>GARTEN</span>
         </h1>
         <h2>Garten- und Lanschaftsbau</h2>
         <div className="social-icons">
