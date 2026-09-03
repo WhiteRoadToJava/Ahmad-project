@@ -48,7 +48,7 @@ const Navbar = () => {
           scrolled ? "navbar-container scrolled" : "navbar-container"
         }`}
       >
-        <div><img className="brand-logo" src={brandImages[0]} alt="" /></div>
+        <div><img className="brand-logo" src={brandImages[0]} alt="BROTHERS GARTEN-LANDSCHAFTSBAU Logo" /></div>
 
         <div>
           <ul className="navbar-links">

@@ -12,18 +12,18 @@ const Footer = () => {
         <h2>Garten- und Landschaftsbau</h2>
         <div className="social-icons">
           <div className="social-item">
-            <a>
-              <img src={icons[0]} alt="" />
+            <a aria-label="Facebook">
+              <img src={icons[0]} alt="Facebook" />
             </a>
           </div>
           <div className="social-item">
-            <a>
-              <img src={icons[1]} alt="" />
+            <a aria-label="Instagram">
+              <img src={icons[1]} alt="Instagram" />
             </a>
           </div>
           <div className="social-item">
-            <a>
-              <img src={icons[2]} alt="" />
+            <a aria-label="YouTube">
+              <img src={icons[2]} alt="YouTube" />
             </a>
           </div>
         </div>

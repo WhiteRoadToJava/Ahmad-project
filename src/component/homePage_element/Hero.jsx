@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <div className='hero-container'>
-      <img src={brandImages[1]} alt="" />
+      <img src={brandImages[1]} alt="BROTHERS GARTEN-LANDSCHAFTSBAU – Gartengestaltung" />
       <div className="contact-section">
         <p>Lassen Sie uns Ihren Garten nach Ihren Wünschen gestalten</p>
         <Link to="/contact">

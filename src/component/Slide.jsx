@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import "../styles/slide.css";
 
-const Slide = ({ images }) => {
+const Slide = ({ images, alt = "BROTHERS GARTEN-LANDSCHAFTSBAU – Projektbild" }) => {
   const [index, setIndex] = useState(1);
 
   const hankdleClick = (indexed) => {
@@ -34,7 +34,7 @@ const Slide = ({ images }) => {
     <div className="slide-container">
       <button className="arrou left" onClick={() => hankdleClick(index - 1)}>prev</button>
       <div className="slide">
-      <img src={imageSrc} alt="" />
+      <img src={imageSrc} alt={`${alt} (${index + 1}/${images.length})`} />
         </div>
       <button className="arrou right" onClick={() => hankdleClick(index + 1)}>next</button>
     </div>
