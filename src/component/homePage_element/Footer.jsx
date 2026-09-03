@@ -30,9 +30,9 @@ const Footer = () => {
       </div>
 
       <div className="footer-contact">
-        <a href="Brothersgartenbau@gmail.com"><p>Brothersgartenbau@gmail.com</p></a>
+        <a href="brothersgartenbau@gmail.com"><p>brothersgartenbau@gmail.com</p></a>
         <p>+49 1577 9878532</p>
-        <p><span>Mardieksweg 39</span><br />37627 Stadtoldendorf</p>
+        <p><span>Grünstr. 10</span><br />37632 Holzminden</p>
       </div>
       
       <div className="footer-links">

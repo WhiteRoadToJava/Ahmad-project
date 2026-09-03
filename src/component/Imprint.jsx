@@ -12,7 +12,7 @@ const Impressum = () => {
 
       <h3>Kontakt</h3>
       <p>E-Mail: brothersgartenbau@gmail.com<br />
-      Mobil: 015730027349</p>
+      Mobil: +49 1577 9878532</p>
 
       <h3>Haftung für Inhalte</h3>
       <p>Als Diensteanbieter sind wir gemäß § 7 Absatz 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzungen von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei bekannt werden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p>

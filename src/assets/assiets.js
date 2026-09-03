@@ -105,6 +105,13 @@ export const icons = [
 ];
 
 
+// NOTE: These coordinates were set for the old "Mardieksweg 39, 37627
+// Stadtoldendorf" address. The Impressum address (Grünstr. 10, 37632
+// Holzminden) is now the confirmed correct one, but that postal code
+// belongs to villages near Holzminden (e.g. Holzen/Eimen), not the
+// town of Holzminden itself (37603) — please verify these lat/long
+// values point at the actual business location before relying on the
+// map pin.
 export const businessLocation = {
         Latitude: 51.85966,
         Longitude: 9.58552,
