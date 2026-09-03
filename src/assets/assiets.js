@@ -25,60 +25,52 @@ import WelcomeVideo from './video.mp4'
 
 
 export const serviceData = [
-
         {
                 _id:'service2',
                 title:'Neugestaltung',
-                description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit,  ',
+                description:'Wir gestalten Ihren Garten komplett neu – von der Planung bis zur Umsetzung, ganz nach Ihren Wünschen.',
                 image:headerimage1
-        },                                                 {
+        },
+        {
                 _id:'service3',
                 title:'Pflasterarbeiten',
-                description:'this is the third service',
+                description:'Fachgerechte Pflasterarbeiten für Einfahrten, Terrassen und Gehwege – langlebig und optisch ansprechend.',
                 image:pfla,
         },
         {
                 _id:'service4',
                 title:'Zaunbau',
-                description:'this is the fourth service',
+                description:'Individueller Zaunbau für mehr Sicherheit und Privatsphäre in Ihrem Garten.',
                 image:Zaunbau,
         },
         {
                 _id:'service5',
                 title:'Rollrasen verlegen',
-                description:'this is the fifth service',
+                description:'Schnelle und professionelle Verlegung von Rollrasen für einen sofort grünen Rasen.',
                 image:roll
         },
         {
-                _id:'',
+                _id:'service6',
                 title:'Keller abdichten',
-                description:'this is the sixth service',
+                description:'Zuverlässige Kellerabdichtung zum Schutz Ihres Hauses vor Feuchtigkeit und Wasserschäden.',
                 image:keller
         },
         {
-                _id:'serive7',
+                _id:'service7',
                 title:'Brunnenbau',
-                description:'this is the seventh service',
+                description:'Planung und Bau von Brunnen für die Gartenbewässerung oder als dekoratives Element.',
                 image:brau
         },
         {
                 _id:'service8',
                 title:'Hausmeisterservice',
-                description:'this is the eighth service',
+                description:'Zuverlässiger Hausmeisterservice für die Pflege und Instandhaltung Ihrer Außenanlagen.',
                 image:brandimage
         },
-        /*              ,
-        {
-                _id:'service9',
-                title:'Entsorgungsarbeiten',
-                description:'this is the ninth service',
-                image:serviceImage3
-        },
-        */
         {
                 _id:'service10',
                 title:'Gartengestaltung',
-                description:'this is the tenth service',
+                description:'Kreative Gartengestaltung, die Ihre Wohnträume im Freien Wirklichkeit werden lässt.',
                 image:Gartengestaltung
         }
 ]

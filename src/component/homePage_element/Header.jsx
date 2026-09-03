@@ -11,7 +11,7 @@ const Header = () => {
         <h1> BROTHERS GARTEN-LANDSCHAFTSBAU</h1>
         <p>Lassen Sie uns Ihren Garten nach Ihren Wünschen gestalten</p>
         <Link to="/contact">
-          <button className="header-btn">Konntaktieren Sie uns</button>
+          <button className="header-btn">Kontaktieren Sie uns</button>
         </Link>
       </div>
     </div>

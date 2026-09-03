@@ -64,7 +64,7 @@ const GardenMap = () => {
         {/* علامة مقر الشركة الثابتة */}
         <Marker position={myBusinessLocation}>
           <Popup>
-            <strong>ROTHERS GARTEN-LANDSCHAFTSBAU</strong> <br />
+            <strong>BROTHERS GARTEN-LANDSCHAFTSBAU</strong> <br />
             Grünstr. 10<br />
             37632 Holzminden<br />
             +49 1577 9878532<br />
