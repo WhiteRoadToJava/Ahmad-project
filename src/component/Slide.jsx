@@ -3,14 +3,10 @@ import React, { useEffect, useState } from "react";
 import "../styles/slide.css";
 
 const Slide = ({ images }) => {
-  const [imageSrc, setImageSrc] = useState(null);
   const [index, setIndex] = useState(1);
-  useEffect(() => {
-    setImageSrc(images[index]);
-  }, [images, index]);
-  if (!images) return null;
 
   const hankdleClick = (indexed) => {
+    if (!images) return;
     if (indexed > images.length - 1) {
       setIndex(0);
     } else if (indexed < 0) {
@@ -18,21 +14,21 @@ const Slide = ({ images }) => {
     } else {
       setIndex(indexed);
     }
-    setImageSrc(images[index]);
   };
 
-
   useEffect(() => {
-    let interval = null;
-    interval = setInterval(() => {
+    if (!images) return;
+    const interval = setInterval(() => {
       hankdleClick(index + 1);
     }, 12000);
     return () => {
       clearInterval(interval);
     };
+  }, [index, images]);
 
-  }, [index])
-        
+  if (!images) return null;
+
+  const imageSrc = images[index];
 
   return (
     <div className="slide-container">
