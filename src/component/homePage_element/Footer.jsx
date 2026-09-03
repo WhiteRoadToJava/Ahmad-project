@@ -9,7 +9,7 @@ const Footer = () => {
         <h1>
           BROTHERS <span>GARTEN</span>
         </h1>
-        <h2>Garten- und Lanschaftsbau</h2>
+        <h2>Garten- und Landschaftsbau</h2>
         <div className="social-icons">
           <div className="social-item">
             <a>
@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       
       <div className="footer-links">
-        <p>Copyright &copy; 2025 BROTHERS GRADEN</p>
+        <p>Copyright &copy; {new Date().getFullYear()} BROTHERS GARTEN</p>
         <a href="/privacy-policy">Datenschutz</a>
         <a href="/imprint">Impressum</a>
       </div>
