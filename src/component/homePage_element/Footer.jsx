@@ -12,18 +12,31 @@ const Footer = () => {
         <h2>Garten- und Landschaftsbau</h2>
         <div className="social-icons">
           <div className="social-item">
+            {/* Facebook link pending: the URL provided (facebook.com/spicialforyou.shop)
+                resolves to an unrelated shop page, not this business. Waiting on the
+                correct URL before adding an href here. */}
             <a aria-label="Facebook">
               <img src={icons[0]} alt="Facebook" />
             </a>
           </div>
           <div className="social-item">
-            <a aria-label="Instagram">
+            <a
+              href="https://www.instagram.com/brotehers_gartenlandschaftsba"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
               <img src={icons[1]} alt="Instagram" />
             </a>
           </div>
           <div className="social-item">
-            <a aria-label="YouTube">
-              <img src={icons[2]} alt="YouTube" />
+            <a
+              href="https://www.tiktok.com/@brothers.gartenla"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok"
+            >
+              <img src={icons[2]} alt="TikTok" />
             </a>
           </div>
         </div>

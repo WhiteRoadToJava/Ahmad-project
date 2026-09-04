@@ -17,7 +17,7 @@ import brand from './images/services-images/brand.jpg'
 
 import facebook from './icons/facebook.png'
 import instagram from './icons/instagram-logo.png'
-import youtube from './icons/youtube-logo.png'
+import tiktok from './icons/tiktok.png'
 import gmail from './icons/gmail.png'
 import location from './icons/location.png'
 import WelcomeVideo from './video.mp4'
@@ -91,7 +91,7 @@ export const brandImages = [
 export const icons = [
         facebook,
         instagram,
-        youtube,
+        tiktok,
         gmail,
         location,
 ];
