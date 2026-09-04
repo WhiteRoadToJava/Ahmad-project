@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../component/homePage_element/Navbar.jsx'
 import Header from '../component/homePage_element/Header.jsx'
 import TopServices from '../component/homePage_element/TopServices.jsx'
 import Hero from '../component/homePage_element/Hero.jsx'

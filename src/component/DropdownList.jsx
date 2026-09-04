@@ -9,10 +9,10 @@ const DropdownList = ({listItems, isActive, setIsActive}) => {
   return (
     <div className='dropdown-menu ' >
       <ul className='dropdown-list' style={isActive ? {left: '0%',} : {left: '', display: 'none'}}>
-        {listItems.map((item, index) => {
+        {listItems.map((item) => {
           return (
             <li onClick={() => setIsActive(!isActive)}
-             key={index}><Link to={item.link}>{item.text}</Link></li>
+             key={item.link}><Link to={item.link}>{item.text}</Link></li>
           )
         })}
         </ul>

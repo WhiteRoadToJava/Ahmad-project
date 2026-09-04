@@ -12,8 +12,8 @@ const TopServices = () => {
       <p>BROTHERS GARTEN-LANDSCHAFTSBAU</p>
       </div>
       <div className="top-services-cards">
-        {services.map((service, index) => {
-          return <Card key={index} cardDetails={service} />;
+        {services.map((service) => {
+          return <Card key={service._id} cardDetails={service} />;
         })}
       </div>
     </div>

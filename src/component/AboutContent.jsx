@@ -35,8 +35,8 @@ const AboutContent = () => {
         <div className="container">
           <h3>Unsere Leistungen für Sie</h3>
           <div className="services-grid">
-            {services.map((service, index) => (
-              <div key={index} className="service-card">
+            {services.map((service) => (
+              <div key={service} className="service-card">
                 <div className="service-icon">✔</div>
                 <div className="service-text">{service}</div>
               </div>
