@@ -1,22 +1,36 @@
 .video-container {
   position: relative;
   width: 100%;
-  height: 100%;
   overflow: hidden;
 }
 .hero-video {
   width: 100%;
   height: auto;
+  max-height: 640px;
   object-fit: cover;
+  display: block;
 }
 .video-overlay {
- position: absolute;
-  top: 50%;
+  position: absolute;
+  bottom: 8%;
   left: 50%;
-  transform: translate(-50%, -50%); 
-  color: white;
+  transform: translateX(-50%);
+  color: var(--color-white);
   text-align: center;
-  background: rgba(0, 0, 0, 0.4); 
-  padding: 20px;
-  border-radius: 10px;
+  background: rgba(26, 26, 24, 0.45);
+  backdrop-filter: blur(6px);
+  padding: 1.5rem 2rem;
+  border-radius: var(--radius-md);
+  width: 90%;
+  max-width: 520px;
+}
+.video-overlay h1 {
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  color: var(--color-white);
+  margin-bottom: 0.5rem;
+}
+.video-overlay p {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-stone);
 }

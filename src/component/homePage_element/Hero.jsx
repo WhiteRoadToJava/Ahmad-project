@@ -1,16 +1,14 @@
 import React from 'react'
-import { brandImages } from '../../assets/assiets'
+import { serviceData } from '../../assets/assiets'
 import "../../styles/hero.css";
-import { Link } from 'react-router-dom';
+
 const Hero = () => {
   return (
     <div className='hero-container'>
-      <img src={brandImages[1]} alt="BROTHERS GARTEN-LANDSCHAFTSBAU – Gartengestaltung" />
-      <div className="contact-section">
-        <p>Lassen Sie uns Ihren Garten nach Ihren Wünschen gestalten</p>
-        <Link to="/contact">
-          <button className="header-btn">Kontaktieren Sie uns</button>
-        </Link>
+      <img src={serviceData[7].image} alt="Gartengestaltung von BROTHERS GARTEN-LANDSCHAFTSBAU" />
+      <div className="hero-text">
+        <h2>Handwerk, das im Garten bleibt</h2>
+        <p>Von der ersten Skizze bis zum letzten Stein – wir setzen Ihre Gartenprojekte in Holzminden und Umgebung mit Sorgfalt und Erfahrung um.</p>
       </div>
     </div>
   )

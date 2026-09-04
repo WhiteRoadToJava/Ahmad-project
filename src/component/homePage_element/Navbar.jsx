@@ -2,23 +2,23 @@ import React, { useEffect, useState } from "react";
 import "../../styles/Navbar.css";
 import { Link } from "react-router-dom";
 import DropdownList from "../../component/DropdownList";
-import { brandImages } from "../../assets/assiets"; 
+import { logoImage } from "../../assets/assiets"; 
 const dropdownList = [
   {
     link: "/",
-    text: "Home",
+    text: "Startseite",
   },
   {
-    link: "/Services",
-    text: "Services",
+    link: "/services",
+    text: "Leistungen",
   },
   {
     link: "/contact",
-    text: "Contact",
+    text: "Kontakt",
   },
   {
     link: "/about",
-    text: "About",
+    text: "Über uns",
   },
 ];
 const Navbar = () => {
@@ -48,21 +48,21 @@ const Navbar = () => {
           scrolled ? "navbar-container scrolled" : "navbar-container"
         }`}
       >
-        <div><img className="brand-logo" src={brandImages[0]} alt="BROTHERS GARTEN-LANDSCHAFTSBAU Logo" /></div>
+        <div><img className="brand-logo" src={logoImage} alt="BROTHERS GARTEN-LANDSCHAFTSBAU Logo" /></div>
 
         <div>
           <ul className="navbar-links">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Startseite</Link>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <Link to="/services">Leistungen</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact">Kontakt</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about">Über uns</Link>
             </li>
           </ul>
         </div>
@@ -72,7 +72,7 @@ const Navbar = () => {
           </div>
           <div className="btn-container">
             <Link to='/contact'>
-              <button className="btn" >Book a Call</button>
+              <button className="btn" >Jetzt anfragen</button>
             </Link>
             
           </div>

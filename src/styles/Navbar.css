@@ -1,12 +1,11 @@
-.navbar-container{
+.navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  max-height: 40px;
-  box-shadow: 0 2px rgba(0, 0, 0, 0.1);
-  background-color: rgba(0, 0, 0, 1);
-  transition: background-color 0.4s ease-in-out;
+  padding: 0.6rem 1.5rem;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+  background-color: var(--color-forest);
+  transition: background-color 0.3s ease-in-out;
   position: fixed;
   top: 0;
   left: 0;
@@ -14,87 +13,75 @@
   z-index: 100;
 }
 .navbar-container.scrolled {
-  background-color: rgba(0, 0, 0, 0);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(27, 67, 50, 0.94);
+  backdrop-filter: blur(8px);
 }
+
 .navbar-links {
   display: flex;
   align-items: center;
   list-style: none;
-}
-.navbar-links li {
-  margin-right: 20px;
+  margin: 0;
+  padding: 0;
+  gap: 1.75rem;
 }
 .navbar-links li a {
   text-decoration: none;
-  color: #fff;
+  color: var(--color-stone);
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
 }
 .navbar-links li a:hover {
-  color: #ccc;
+  color: var(--color-leaf);
 }
-.brand-logo{
-  width: 100%;
-  height: 60px;
-  object-fit: cover;
-  border-radius: 8px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+
+.brand-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  display: block;
 }
 
 .hamb {
-  height: 60px;
-  width: 60px;
-  display: inline-block;
-  border: 3px solid white;
+  height: 44px;
+  width: 44px;
+  display: inline-flex;
+  border: 2px solid var(--color-stone);
   border-radius: 50%;
-  position: relative;
-  display: flex;
   align-items: center;
   justify-content: center;
   z-index: 100;
   cursor: pointer;
-  transform: scale(0.8);
-  margin-right: 20px;
+  margin-right: 6px;
 }
 
 .hamb .bar {
   height: 2px;
-  width: 30px;
+  width: 20px;
   position: relative;
-  background-color: white;
-  z-index: -1;
-}
-
-.hamb::after {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  border: 3px solid white;
-  animation: hamb_puls 0.3s ease infinite;
+  background-color: var(--color-stone);
 }
 
 .hamb .bar::after,
-/* Corrected: Added '#' to the header selector */
 .hamb .bar::before {
   content: "";
   position: absolute;
   height: 100%;
   width: 100%;
   left: 0;
-  background-color: white;
+  background-color: var(--color-stone);
   transition: 0.3s;
   transition-property: top, bottom;
 }
 
 .hamb .bar::after {
-  top: 8px;
+  top: 6px;
 }
 
 .hamb .bar::before {
-  bottom: 8px;
+  bottom: 6px;
 }
 
 .hamb.active .bar::after {
@@ -106,29 +93,19 @@
 }
 
 .btn {
-  padding: 0.8rem;
-  border-radius: 30px;
-  border: 1px solid rgba(red, green, blue, alpha);
-  color: #383636;
-  font-size: 1.5rem;
-  font-weight: 5;
-  transition: all 0.3s ease-in-out;
+  padding: 0.65rem 1.5rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--color-leaf);
+  background: transparent;
+  color: var(--color-stone);
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.25s ease-in-out;
   cursor: pointer;
 }
 .btn:hover {
-  color: #fff;
-  background-color: #383636;
-}
-
-@keyframes hamb_puls {
-  0% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1.4);
-  }
+  color: var(--color-forest);
+  background-color: var(--color-leaf);
 }
 
 @media (min-width: 750px) {

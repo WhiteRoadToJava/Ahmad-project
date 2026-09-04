@@ -1,5 +1,35 @@
 :root {
-  --color-green: rgb(56, 175, 56);
-  --color-darkgreen: rgb(13, 81, 13);
-  --color-lightred: rgb(235, 97, 33)
+  /* ---- Color ---- */
+  --color-forest: #1B4332;       /* deep forest green — primary text, nav, dark surfaces */
+  --color-forest-soft: #2D6A4F;  /* lighter forest for secondary surfaces */
+  --color-leaf: #52B788;         /* vibrant leaf green — accent, links, CTAs */
+  --color-leaf-dark: #3C9C6F;    /* leaf hover/active state */
+  --color-stone: #F5F1E8;        /* warm stone background, replaces plain white */
+  --color-stone-dark: #E7DFC9;   /* stone borders / subtle surfaces */
+  --color-charcoal: #1A1A18;     /* near-black text */
+  --color-charcoal-soft: #57564F;/* secondary / muted text */
+  --color-white: #FFFFFF;
+  --color-error: #B3401C;        /* warm error red for form validation */
+
+  /* Backward-compatible aliases (older CSS references these names) */
+  --color-green: var(--color-leaf);
+  --color-darkgreen: var(--color-forest);
+  --color-lightred: var(--color-error);
+
+  /* ---- Typography ---- */
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Work Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* ---- Spacing ---- */
+  --space-2xs: 0.4rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1.25rem;
+  --space-md: 2rem;
+  --space-lg: 3.5rem;
+  --space-xl: 6rem;
+
+  /* ---- Radius & shadow ---- */
+  --radius-sm: 6px;
+  --radius-md: 14px;
+  --shadow-soft: 0 8px 30px rgba(27, 67, 50, 0.14);
 }

@@ -13,8 +13,6 @@ import pfla from './images/services-images/pfla.jpg'
 import brau from './images/services-images/brau.jpg'
 import keller from './images/services-images/keller.jpg'
 
-import brand from './images/services-images/brand.jpg'
-
 import facebook from './icons/facebook.png'
 import instagram from './icons/instagram-logo.png'
 import tiktok from './icons/tiktok.png'
@@ -81,11 +79,8 @@ export const headerIamages = [
         headerimage3,
         headerimage4,
 ]
-export const brandImages = [
-        brandimage,
-        brand,
-        WelcomeVideo
-]
+export const logoImage = brandimage
+export const welcomeVideo = WelcomeVideo
 
 
 export const icons = [

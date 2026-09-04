@@ -1,48 +1,68 @@
 .header-container {
   width: 100%;
   height: 100%;
+  position: relative;
 }
-.header-container img{
-        width: 100%;
-        height: 100%;
-        border-radius: 8px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+.header-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  object-fit: cover;
+  background-position: center;
 }
 
 .header-content {
-  top: 36%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  min-width: 25%;
-
   position: absolute;
-  padding: 3%;
-  transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(84, 84, 84, 0.4);
-  border-radius: 10px;
+  bottom: 12%;
+  left: 6%;
+  right: 6%;
+  max-width: 560px;
+  padding: 2rem;
+  color: var(--color-white);
+  background: rgba(26, 26, 24, 0.45);
+  backdrop-filter: blur(6px);
+  border-radius: var(--radius-md);
 }
+.header-content h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 4vw, 2.6rem);
+  color: var(--color-white);
+  line-height: 1.15;
+  margin-bottom: 0.75rem;
+}
+.header-content p {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+  color: var(--color-stone);
+}
+
 .header-btn {
-        position: relative;
-        left: 40%;
-  padding: 0.8rem;
-  border: 1px solid rgba(red, green, blue, alpha);
-  color: #383636;
-  font-size: 1.5rem;
-  font-weight: 5;
-  transition: all 0.3s ease-in-out;
+  padding: 0.8rem 1.75rem;
+  border: none;
+  border-radius: 999px;
+  background-color: var(--color-leaf);
+  color: var(--color-forest);
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.25s ease-in-out;
   cursor: pointer;
 }
 .header-btn:hover {
-  color: #fff;
-  background-color: #383636;
+  background-color: var(--color-white);
 }
 
 @media (max-width: 750px) {
   .header-content {
-    display: none;
-    }
+    left: 5%;
+    right: 5%;
+    bottom: 6%;
+    max-width: none;
+    padding: 1.25rem;
+  }
+  .header-content h1 {
+    font-size: 1.4rem;
+  }
+  .header-content p {
+    font-size: 0.9rem;
+  }
 }
-

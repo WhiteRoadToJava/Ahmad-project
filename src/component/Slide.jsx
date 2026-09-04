@@ -32,11 +32,32 @@ const Slide = ({ images, alt = "BROTHERS GARTEN-LANDSCHAFTSBAU – Projektbild" 
 
   return (
     <div className="slide-container">
-      <button className="arrou left" onClick={() => hankdleClick(index - 1)}>prev</button>
+      <button
+        className="arrou left"
+        onClick={() => hankdleClick(index - 1)}
+        aria-label="Vorheriges Bild"
+      >
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <polyline points="15 18 9 12 15 6" />
+        </svg>
+      </button>
       <div className="slide">
-      <img src={imageSrc} alt={`${alt} (${index + 1}/${images.length})`} />
+        <img src={imageSrc} alt={`${alt} (${index + 1}/${images.length})`} />
+        <div className="slide-dots">
+          {images.map((_, i) => (
+            <span key={i} className={i === index ? "dot active" : "dot"} />
+          ))}
         </div>
-      <button className="arrou right" onClick={() => hankdleClick(index + 1)}>next</button>
+      </div>
+      <button
+        className="arrou right"
+        onClick={() => hankdleClick(index + 1)}
+        aria-label="Nächstes Bild"
+      >
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <polyline points="9 18 15 12 9 6" />
+        </svg>
+      </button>
     </div>
   );
 };
