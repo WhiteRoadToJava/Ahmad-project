@@ -158,7 +158,7 @@ const PrivacyPolicy = () => {
         <h2 style={headerStyle}>II. Geltungsbereich</h2>
         <p>
           Diese Homepage wird durch{" "}
-          <strong>JMU Garten- & Landschaftsbau GmbH & Co. KG</strong> betrieben.
+          <strong>BROTHERS Garten-Landschaftsbau</strong> betrieben.
           Diese Datenschutzerklärung gilt daher für unsere gesamte Homepage bzw.
           unseren gesamten Internetauftritt. Weitere Informationen zu unserem
           Unternehmen können Sie jederzeit unserem Impressum entnehmen.
@@ -366,17 +366,17 @@ const PrivacyPolicy = () => {
         </h2>
         <h3 style={subHeaderStyle}>1. Verantwortlicher</h3>
         <p>
-          JMU Garten- & Landschaftsbau GmbH & Co.
+          BROTHERS Garten-Landschaftsbau
           <br />
-          Am Rodekamp 2<br />
-          37627 Stadtoldendorf
+          Grünstr. 10<br />
+          37632 Holzminden
           <br />
           <br />
-          Email: info@jmu-galabau.de
+          Email: brothersgartenbau@gmail.com
           <br />
-          Web: www.jmu-galabau.de
+          Web: brothersgartenbau.de
           <br />
-          Mobil: 0151 50930114
+          Mobil: +49 1577 9878532
         </p>
 
         <h3 style={subHeaderStyle}>2. Datenschutzbeauftragter</h3>

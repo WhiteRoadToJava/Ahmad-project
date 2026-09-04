@@ -24,7 +24,7 @@ const AboutContent = () => {
           <h2>Über Uns - BROTHERS GARTENBAU</h2>
           <p>
             Willkommen bei <strong>BROTHERS GARTEN-LANDSCHAFTSBAU</strong>. 
-            Wir sind Ihr kompetenter Partner für hochwertige Garten- und Landschaftsgestaltung in <strong>Stadtoldendorf</strong> und Umgebung. 
+            Wir sind Ihr kompetenter Partner für hochwertige Garten- und Landschaftsgestaltung in <strong>Holzminden</strong> und Umgebung. 
             Unser Ziel ist es, Ihre Wohnträume im Freien Wirklichkeit werden zu lassen – mit Leidenschaft, Fachkompetenz und Liebe zum Detail.
           </p>
         </div>
