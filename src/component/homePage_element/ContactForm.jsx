@@ -9,6 +9,10 @@ const ContactForm = () => {
     email: "",
     phone: "",
     message: "",
+    // Honeypot: real users never see or fill this field (hidden via CSS).
+    // Bots that auto-fill every input will fill it, so we use it to
+    // silently drop the submission instead of sending it via EmailJS.
+    website: "",
   });
 
   const [loading, setLoading] = useState(false);
@@ -33,7 +37,14 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    
+
+    // Honeypot triggered: pretend to succeed without actually sending,
+    // so bots don't learn to detect and route around this check.
+    if (contactForm.website) {
+      resetAll();
+      return;
+    }
+
     if (!validate()) {
       return;
     }
@@ -53,10 +64,10 @@ const ContactForm = () => {
 
     emailjs
       .send(
-        "service_xn99fws",
-        "template_8ayk1gt",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         templateParams, // Pass the fresh object
-        "RB7Z9CH64xirSRSpR"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
@@ -79,6 +90,7 @@ const ContactForm = () => {
       email: "",
       phone: "",
       message: "",
+      website: "",
     });
     setError({
       name: false,
@@ -93,6 +105,19 @@ const ContactForm = () => {
       <h1 className="con">Sie wollen mehr erfahren? Sprechen Sie uns an!</h1>
       <form className="contactForm" onSubmit={sendEmail}>
         <h2>Kontaktformular</h2>
+
+        {/* Honeypot field: hidden from real users, bots tend to fill every
+            input they find. Not display:none, since some bots skip those. */}
+        <input
+          type="text"
+          name="website"
+          value={contactForm.website}
+          onChange={(e) => setContactForm({ ...contactForm, website: e.target.value })}
+          style={{ position: "absolute", left: "-9999px", width: "1px", height: "1px", opacity: 0 }}
+          tabIndex="-1"
+          autoComplete="off"
+          aria-hidden="true"
+        />
         
         <div className="input-field name">
           <label>Name:</label>
