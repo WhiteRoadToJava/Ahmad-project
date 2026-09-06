@@ -1,7 +1,7 @@
 .footer-container {
   background-color: var(--color-forest);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: var(--space-md);
   padding: var(--space-lg) var(--space-md) var(--space-md);
 }
@@ -61,10 +61,12 @@
 
 .footer-links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: var(--space-xs);
-  align-items: flex-end;
-  justify-content: flex-end;
+  background-color: var(--color-forest);
+  align-items: center;
+  justify-content: center;
+  padding-bottom: var(--space-sm);
 }
 .footer-links a {
   text-decoration: underline;

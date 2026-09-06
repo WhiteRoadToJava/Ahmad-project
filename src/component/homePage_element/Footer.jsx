@@ -4,6 +4,7 @@ import { icons } from "../../assets/assiets";
 
 const Footer = () => {
   return (
+    <>
     <div className="footer-container">
       <div className="footer-brand">
         <h1>
@@ -49,13 +50,13 @@ const Footer = () => {
         <a href="tel:+4915779878532"><p>+49 1577 9878532</p></a>
         <p><span>Grünstraße 10</span><br />37632 Eschershausen</p>
       </div>
-      
+       </div>
       <div className="footer-links">
         <p>Copyright &copy; {new Date().getFullYear()} BROTHERS GARTEN</p>
         <a href="/privacy-policy">Datenschutz</a>
         <a href="/imprint">Impressum</a>
       </div>
-    </div>
+   </>
   );
 };
 
