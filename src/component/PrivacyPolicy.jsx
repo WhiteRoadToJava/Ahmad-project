@@ -85,14 +85,12 @@ const PrivacyPolicy = () => {
         <li>
           VIII. Einbindung von Diensten und Inhalten Dritter
           <ul>
-            <li>1. Einbindung von Google Maps</li>
-            <li>2. Einsatz von Google-Analytics mit Anonymisierungsfunktion</li>
-            <li>3. Verwendung von Facebook Social Plug-Ins</li>
-            <li>4. Twitter Plug-In</li>
-            <li>5. Google Plus</li>
-            <li>6. YouTube</li>
-            <li>7. Vimeo</li>
-            <li>8. Matomo (ehemals Piwik)</li>
+            <li>1. Einbindung von OpenStreetMap</li>
+            <li>2. Kontaktformular-Versand über EmailJS</li>
+            <li>3. Schriftarten (lokal eingebunden)</li>
+            <li>4. Facebook, Instagram, TikTok (einfache Verlinkung)</li>
+            <li>5. Twitter Plug-In</li>
+            <li>6. Google Plus</li>
           </ul>
         </li>
         <li>IX. RSS-Feed</li>
@@ -527,205 +525,65 @@ const PrivacyPolicy = () => {
       <h2>VII. Cookies</h2>
       <p>
         Wir verwenden auf unserer Homepage bzw. auf unseren Internetseiten
-        sogenannte Cookies (Definition siehe III.14.). Im Einzelnen verwenden
-        wir auf unserer Homepage bzw. auf unseren Internetseiten sowohl
-        Sitzungscookies als auch permanente Cookies (Definition siehe III.14.).
-        Die Cookies werden von uns für Analyse- und Optimierungszwecke
-        verwendet. Cookies werden nicht dazu eingesetzt, um Programme
-        auszuführen oder Viren auf Ihren Computer zu laden. Cookies enthalten z.
-        B. Informationen über die bisherigen Zugriffe des Nutzers auf den
-        entsprechenden Server bzw. Informationen darüber, welche Angebote bisher
-        aufgerufen wurden. Wir können dadurch unser Angebot kontinuierlich
-        verbessern und komfortabler machen. Die Datenerhebung ist deshalb
-        zwingend notwendig. Rechtsgrundlage für die vorstehend genannte
-        Datenerhebung ist Artikel 6 Abs. 1 Satz 1 f DSGVO. Obwohl aufgrund
-        Artikel 6 Abs. 1 Satz 1 f DSGVO keine Einwilligung erforderlich ist,
-        blenden wir beim ersten Aufruf unserer Seite eine Cookie-Warnung ein,
-        mit der wir nochmals ausdrücklich darauf hinweisen, dass Cookies
-        verwendet werden. Gleichzeitig holen wir auch Ihre Einwilligung zur
-        Cookie-Verwendung ein, indem durch Klicken des Buttons die Zustimmung
-        für die Cookie-Verwendung durch den Nutzer erteilt wird. Rechtsgrundlage
-        ist also auch eine etwaig erteilte Einwilligung von Ihnen. Gegen die
-        Verwendung von Cookies steht Ihnen ein Widerspruchsrecht bzw. ein
-        Beseitigungsrecht zu. Sie haben also jederzeit die Möglichkeit, das
-        Setzen von Cookies abzulehnen. Dies geschieht in der Regel durch die
-        Wahl der entsprechenden Option in den Einstellungen des Browsers oder
-        durch zusätzliche Programme. Näheres hierzu entnehmen Sie bitte den
-        Ausführungen unter III.14. und/oder der Datenschutzerklärung sowie der
-        Hilfefunktion des von Ihnen jeweils verwendeten Browsers bzw.
-        Browser-Anbieters.
+        derzeit keine Cookies (Definition siehe III.14.). Insbesondere setzen
+        wir keine Cookies zu Analyse-, Tracking- oder
+        Optimierungszwecken ein und zeigen daher auch keinen
+        Cookie-Consent-Banner an. Die von uns eingebundenen Dienste (siehe
+        VIII.) setzen ebenfalls keine Cookies. Sollte sich dies zukünftig
+        ändern, etwa durch die Einbindung neuer Dienste, werden wir diese
+        Datenschutzerklärung entsprechend aktualisieren und Sie, sofern
+        gesetzlich erforderlich, um Ihre Einwilligung bitten.
       </p>
       </section>
       <section id="section-8" style={sectionStyle}>
       <h2>VIII. Einbindung von Diensten und Inhalten Dritter</h2>
       <p>
-        Wir haben auf unserer Homepage die Dienste Dritter eingebunden, um
-        unsere Homepage sowie unser Angebot attraktiver zu machen und
-        auszubauen. 1. Einbindung von Google Maps Auf unserer Homepage nutzen
-        wir das Angebot von Google Maps. Dadurch können wir Ihnen interaktive
-        Karten direkt in der Homepage anzeigen und ermöglichen Ihnen die
-        komfortable Nutzung der Kartenfunktion. Google Maps ist eine Komponente
-        der Google Inc., 1600 Amphitheatre, Parkway, Mountain View, CA 94043,
-        USA. Bei jedem einzelnen Aufruf der von uns eingebundenen Komponente
-        „Google Maps“ wird von Google ein Cookie (Definition siehe III. 14)
-        gesetzt, um bei der Anzeige der Internetseite, auf der die Komponente
-        „Google Maps“ integriert ist, Nutzereinstellungen und Nutzerdaten zu
-        verarbeiten. Dieses Cookie wird im Regelfall nicht durch das Schließen
-        des Browsers gelöscht, sondern läuft nach einer bestimmten Zeit ab,
-        soweit es nicht von Ihnen zuvor manuell gelöscht wird. Wenn Sie mit
-        dieser Verarbeitung Ihrer Daten nicht einverstanden sind, so besteht die
-        Möglichkeit, den Service von „Google Maps“ zu deaktivieren und auf
-        diesem Weg die Übertragung von Daten an Google zu verhindern. Dazu
-        müssen Sie die Java-Script-Funktion in Ihrem Browser deaktivieren. Wir
-        weisen Sie jedoch darauf hin, dass Sie in diesem Fall die „Google Maps“
-        nicht oder nur eingeschränkt nutzen können. Die Nutzung von „Google
-        Maps“ und der über „Google Maps“ erlangten Informationen erfolgt gemäß
-        den Google-Nutzungsbedingungen, die unter folgendem Link
-        https://policies.google.com/trms?hl=de sowie der zusätzlichen
-        Geschäftsbedingungen für „Google Maps“
-        https://www.google.com/intl/de_US/help/trms_maps.html. Dies erfolgt
-        unabhängig davon, ob Google ein Nutzerkonto bereitstellt, über das Sie
-        eingeloggt sind oder ob kein Nutzerkonto besteht. Wenn Sie bei Google
-        eingeloggt sind, werden Ihre Daten direkt Ihrem Konto zugeordnet. Wir
-        nutzen auf unserer Homepage bzw. unserem Internetauftritt Google Maps,
-        um unsere Homepage für den Nutzer attraktiver zu gestalten.
-        Rechtsgrundlage ist daher Artikel 6 Abs. 1 f DSGVO. Wenn Sie die
-        Zuordnung mit Ihrem Profil bei Google nicht wünschen, müssen Sie sich
-        vor Nutzung der Komponente „Google Maps“ aus Ihrem Google-Konto
-        ausloggen. Google speichert Ihre Daten als Nutzungsprofile und nutzt sie
-        für Zwecke der Werbung, Marktforschung und/oder bedarfsgerechten
-        Gestaltung seiner Website. Eine solche Auswertung erfolgt insbesondere
-        (selbst für nicht eingeloggte Nutzer) zur Erbringung von
-        bedarfsgerechter Werbung und um andere Nutzer des sozialen Netzwerks
-        über Ihre Aktivitäten auf unserer Homepage zu informieren. Ihnen steht
-        ein Widerspruchsrecht zu gegen die Bildung dieser Nutzerprofile, wobei
-        Sie sich zur Ausübung dessen an Google richten müssen. Dort erhalten Sie
-        auch weitere Informationen zu Ihren diesbezüglichen Rechten und
-        Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre. Google
-        verarbeitet ihre personenbezogenen Daten auch in den USA und hat sich
-        dem EU-US-privacy-shield unterworfen: https://www.privacyshield.gov. 2.
-        Einsatz von Google-Analytics mit Anonymisierungsfunktion Wir setzen auf
-        dieser Homepage Google-Analytics ein, einen Webanalysedienst der Firma
-        Google Inc. 1600 Amphitheatre, Parkway, Mountain View, CA 94043, USA.
-        Google-Analytics verwendet sogenannte Cookies (Definition siehe III.
-        14.). Diese Cookies werden auf Ihrem Computer gespeichert und
-        ermöglichen uns eine Analyse der Benutzung unserer Homepage durch Sie.
-        Die durch diese Cookies erzeugten Informationen, beispielsweise Zeit,
-        Ort und Häufigkeit Ihres Websitebesuchs einschließlich Ihrer IP-Adresse,
-        werden an Google in den USA übertragen und dort gespeichert. Wir
-        verwenden auf unserer Homepage Google-Analytics mit einer
-        IP-Anonymisierungsfunktion. Ihre IP-Adresse wird in diesem Fall von
-        Google schon innerhalb von Mitgliedstaaten der Europäischen Union oder
-        in anderen Vertragsstaaten des Abkommens über den europäischen
-        Wirtschaftsraum gekürzt und dadurch anonymisiert. Google wird diese
-        Informationen benutzen, um Ihre Nutzung unserer Homepage auszuwerten, um
-        Reports über die Website-Aktivitäten für uns zusammenzustellen und um
-        weitere mit der Website-Nutzung und der Internetnutzung verbundene
-        Dienstleistungen zu erbringen. Auch wird Google diese Informationen ggf.
-        an Dritte übertragen, sofern dies gesetzlich vorgeschrieben ist oder
-        soweit Dritte diese Daten im Auftrag von Google verarbeiten. Wir
-        verwenden Google Analytics mit einer IP-Anonymisierungsfunktion zu
-        Analysezwecken und damit verbunden zu einer stetigen Verbesserung
-        unseres Angebots. Rechtsgrundlage ist daher Artikel 6 Abs. 1 f DSGVO.
-        Google wird, nach eigenen Angaben, in keinem Fall Ihre IP-Adresse mit
-        anderen Daten von Google in Verbindung bringen. Sie können die
-        Installation der Cookies durch eine entsprechende Einstellung Ihrer
-        Browser-Software verhindern; wir weisen jedoch darauf hin, dass Sie in
-        diesem Fall ggf. nicht sämtliche Funktionen unserer Website voll
-        umfänglich nutzen können. Des Weiteren bietet Google für die gängigsten
-        Browser eine Deaktivierungsoption an, welche Ihnen mehr Kontrolle
-        darüber gibt, welche Daten von Google erfasst und verarbeitet werden.
-        Sollten Sie diese Option aktivieren, werden keine Informationen zum
-        Website-Besuch an Google-Analytics übermittelt. Die Aktivierung
-        verhindert aber nicht, dass Informationen an uns oder an andere von uns
-        ggf. eingesetzte Webanalyse-Services übermittelt werden. Weitere
-        Informationen zu der von Google bereitgestellten Deaktivierungsoption
-        sowie zu der Aktivierung dieser Option, erhalten Sie über nachfolgenden
-        Link: https://tools.google.com/dlpage/gaoptout?hl=de. 3. Verwendung von
-        Facebook Social Plug-Ins Auf unserer Homepage bzw. auf unserem
-        Internetauftritt verwenden wir sogenannte Social Plug-Ins („Plug-Ins“,
-        Definition siehe III.18.) des sozialen Netzwerks www.facebook.com. Das
-        soziale Netzwerk www.facebook.com wird von der Facebook Inc., 1601 S.
-        California Ave, Palo Alto, CA 94304, USA betrieben. Diese Plug-Ins sind
-        auf unserer Homepage bzw. unserem Internetauftritt mit dem Facebook-Logo
-        gekennzeichnet. Wenn Sie unsere Internetseiten bzw. einzelne Inhalte
-        unserer Internetseiten aufrufen, die ein solches Plug-In enthalten, baut
-        Ihr Browser automatisch eine direkte Verbindung mit den Servern von
-        Facebook auf. Der Inhalt des Plug-Ins wird von Facebook direkt an Ihren
-        Browser übermittelt und von diesem in die Internetseite eingebunden.
-        Durch die Einbindung der Plug-Ins erhält Facebook die Information, dass
-        Sie unsere entsprechende Internetseite bzw. den jeweiligen Inhalt
-        aufgerufen haben. Sollten Sie dabei über ein eigenes Konto bei Facebook
-        verfügen und dort eingeloggt sein, so kann Facebook Ihren Besuch Ihrem
-        Facebook-Konto zuordnen. Wenn Sie mit den Facebook-Plug-Ins
-        interagieren, wie z. B. den „Gefällt mir“-Button betätigen, einen
-        Kommentar abgeben oder ähnliches, wird die entsprechende Information von
-        Ihrem Browser direkt an Facebook übermittelt und auch von Facebook
-        gespeichert. Zweck und Umfang der Datenerhebung sowie die weitere
-        Verarbeitung und Nutzung der Daten durch Facebook und diesbezügliche
-        Rechte und Einstellungsmöglichkeiten zu Ihrem Schutz sowie Ihrer
-        Privatsphäre ist den Datenschutzhinweisen von Facebook zu entnehmen.
-        Diese können Sie auf der oben angegebenen Homepage von Facebook
-        einsehen. Zweck der Verwendung von Facebook Social Plug-Ins auf unserer
-        Homepage ist, unsere Homepage interessanter und attraktiver zu machen.
-        Daher ist Rechtsgrundlage Artikel 6 Abs. 1 f DSGVO. Wenn Sie nicht
-        wünschen, dass Facebook in der vorstehend beschriebenen Art und Weise
-        Daten sammelt und speichert, müssen Sie sich vor Ihrem Besuch unseres
-        Internetauftritts aus Ihrem Nutzerkonto bei Facebook ausloggen. 4.
-        Twitter Plug-In Derzeit ohne Anwendung. 5. Google Plus Derzeit ohne
-        Anwendung. 6. YouTube Unsere Homepage bzw. unser Internetauftritt nutzt
-        für die Integration und Darstellung von Videoinhalten Plug-Ins von
-        YouTube. Bei YouTube handelt es sich um ein Internet-Videoportal.
-        Anbieter dieses Videoportals ist die YouTube, LLC, 901 Caerry Ave, San
-        Bruno CA 94066, USA (www.youtube.com). Bei Aufruf eines Inhalts unserer
-        Homepage bzw. unserer Internetseiten mit integriertem YouTube-Plug-In
-        wird automatisch eine Verbindung zu den Servern von YouTube hergestellt.
-        YouTube erfährt hierdurch, welche unserer Internetseiten bzw. welche
-        Inhalte auf unseren Internetseiten Sie aufgerufen haben. Sollten Sie
-        über ein eigenes Konto bei YouTube verfügen, so kann YouTube Ihr
-        Surfverhalten direkt Ihrem Konto bzw. Ihrem persönlichen Profil
-        zuordnen, wenn Sie in Ihrem YouTube-Konto zu diesem Zeitpunkt eingeloggt
-        sind. Durch vorheriges ausloggen haben Sie die Möglichkeit dies zu
-        unterbinden bzw. zu verhindern. Die Einbindung von YouTube in unserer
-        Homepage erfolgt im Interesse einer ansprechenden Darstellung unserer
-        Online-Angebote. Rechtsgrundlage ist daher Artikel 6 Abs. 1 f DSGVO.
-        Einzelheiten zum Umgang mit Nutzerdaten finden Sie in der
-        Datenschutzerklärung von YouTube unter
-        https://www.google.de/intl/de/policies/privacy. 7. Vimeo Unsere Homepage
-        bzw. unser Internetauftritt nutzt für die Integration und Darstellung
-        von Videoinhalten Plug-Ins von Vimeo. Anbieter des Videoportals ist die
-        Vimeo Inc., 555 West 18th Street, New York, New York 10011, USA
-        (www.vimeo.com). Bei Aufruf des Inhalts unserer Internetseiten mit
-        integriertem Vimeo-Plug-In wird eine Verbindung zu den Servern von Vimeo
-        hergestellt. Vimeo erfährt hierdurch, welche unserer Seiten Sie
-        aufgerufen haben. Vimeo erfährt Ihre IP-Adresse, selbst wenn Sie nicht
-        beim Videoportal eingeloggt sind und/oder dort kein Konto besitzen. Es
-        erfolgt eine Übermittlung der von Vimeo erfassten Informationen an
-        Server des Videoportals in den USA. Vimeo kann Ihr Nutzungsverhalten
-        direkt Ihrem Profil zuordnen. Durch vorheriges ausloggen haben Sie die
-        Möglichkeit, dies zu unterbinden bzw. zu verhindern. Die Einbindung von
-        Vimeo-Plug-Ins auf unserer Homepage bzw. unserem Internetauftritt
-        erfolgt im Interesse einer ansprechenden Darstellung unserer
-        Online-Angebote. Rechtsgrundlage ist daher Artikel 6 Abs. 1 f DSGVO
-        Einzelheiten zum Umgang mit Nutzerdaten finden Sie in der
-        Datenschutzerklärung von Vimeo unter https://vimeo.com/privacy. 8.
-        Matomo (ehemals Piwik) Unsere Homepage bzw. unser Internetauftritt
-        verwendet den Webanalysedienst Matomo. Matomo (ehemals Piwik). Matomo
-        ist eine Open-Source-Lösung. Matomo verwendet sogenannte „Cookies“
-        (Definition siehe III.14.). Die mittels Cookie erzeugten Informationen
-        über die Benutzung unserer Homepage bzw. unseres Internetauftritts wird
-        auf unserem Server gespeichert. Vor der Speicherung erfolgt allerdings
-        eine Anonymisierung Ihrer IP-Adresse. Cookies von Matomo verbleiben auf
-        Ihrem Endgerät bis Sie eine Löschung vornehmen. Es erfolgt keine
-        Weitergabe der im Matomo-Cookie gespeicherten Informationen über die
-        Benutzung unserer Homepage bzw. unseres Internetauftritts. Wir verwenden
-        Matomo zur anonymisierten Analyse des Nutzerverhaltens, um unser
-        Angebot, auch unser Werbeangebot, zu optimieren und zu verbessern.
-        Rechtsgrundlage ist daher Artikel 6 Abs. 1 f DSGVO. Das Setzen von
-        Cookies durch Ihren Webbrowser ist verhinderbar. Insoweit verweisen wir
-        ausdrücklich auf die Ausführungen unter III.14. Einige Funktionen
-        unserer Homepage bzw. unseres Internetauftritts könnten dadurch jedoch
-        eingeschränkt werden.
+        Wir haben auf unserer Homepage die nachfolgend beschriebenen Dienste
+        Dritter eingebunden. Wir setzen bewusst keine Analyse- oder
+        Tracking-Dienste (wie z. B. Google Analytics oder vergleichbare
+        Tools) und keine Social-Media-Plug-Ins ein. 1. Einbindung von
+        OpenStreetMap Auf unserer Homepage nutzen wir für die Darstellung
+        unseres Standorts das Kartenmaterial von OpenStreetMap, einem
+        offenen, gemeinnützigen Kartenprojekt (OpenStreetMap Foundation, St
+        John&apos;s Innovation Centre, Cowley Road, Cambridge, CB4 0WS,
+        Vereinigtes Königreich). Beim Aufruf der Kartenansicht wird eine
+        Verbindung zu den Kartenservern von OpenStreetMap hergestellt, wobei
+        Ihre IP-Adresse sowie technische Informationen zu Ihrem Endgerät
+        (z. B. Browsertyp) an OpenStreetMap übertragen werden, damit die
+        Karte korrekt angezeigt werden kann. Es werden dabei keine Cookies
+        gesetzt. Rechtsgrundlage ist Artikel 6 Abs. 1 f DSGVO, unser
+        berechtigtes Interesse liegt in einer für Sie verständlichen und
+        komfortablen Darstellung unseres Standorts. Weitere Informationen
+        zum Datenschutz bei OpenStreetMap finden Sie unter
+        https://wiki.osmfoundation.org/wiki/Privacy_Policy. 2.
+        Kontaktformular-Versand über EmailJS Für die technische Zustellung
+        von Anfragen über unser Kontaktformular nutzen wir den Dienst
+        EmailJS (EmailJS Corp., USA). Die von Ihnen im Kontaktformular
+        eingegebenen Daten (Name, E-Mail-Adresse, Telefonnummer, Nachricht)
+        werden dabei über die Server von EmailJS an unsere E-Mail-Adresse
+        weitergeleitet, damit wir Ihre Anfrage beantworten können. EmailJS
+        speichert diese Daten nicht dauerhaft, sondern verarbeitet sie
+        ausschließlich zum Zweck der Zustellung. Rechtsgrundlage ist Artikel
+        6 Abs. 1 b DSGVO, da die Verarbeitung der Anbahnung bzw. Erfüllung
+        eines Vertrags oder einer Anfrage dient. Weitere Informationen
+        erhalten Sie in der Datenschutzerklärung von EmailJS unter
+        https://www.emailjs.com/legal/privacy-policy/. 3. Schriftarten Wir
+        binden auf unserer Homepage Schriftarten (Fraunces, Work Sans) ein.
+        Diese Schriftarten werden lokal von unserem eigenen Server
+        ausgeliefert, nicht von einem externen Anbieter wie z. B. Google
+        Fonts. Es findet daher beim Laden unserer Schriftarten keine
+        Verbindung zu und keine Datenübertragung an einen Drittanbieter
+        statt. 4. Facebook, Instagram, TikTok Wir verlinken auf unserer
+        Homepage (insbesondere im Footer) auf unsere Profile bei Facebook,
+        Instagram und TikTok. Hierbei handelt es sich um einfache Hyperlinks
+        und nicht um eingebundene Social-Media-Plug-Ins. Es wird beim bloßen
+        Aufruf unserer Homepage keine Verbindung zu den Servern dieser
+        Anbieter hergestellt und keine Daten an diese übermittelt. Erst wenn
+        Sie aktiv auf einen dieser Links klicken und die jeweilige Plattform
+        besuchen, gelten die Datenschutzbestimmungen des jeweiligen
+        Anbieters (Meta Platforms Ireland Limited für Facebook und
+        Instagram, TikTok Technology Limited für TikTok). 5. Twitter Plug-In
+        Derzeit ohne Anwendung. 6. Google Plus Derzeit ohne Anwendung.
       </p>
       </section>
 
@@ -1128,7 +986,7 @@ const PrivacyPolicy = () => {
         }}
       >
         <p>
-          <em>Stand der Datenschutzerklärung: Januar 2026</em>
+          <em>Stand der Datenschutzerklärung: September 2026</em>
         </p>
       </footer>
     </div>
