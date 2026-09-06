@@ -65,8 +65,8 @@ const GardenMap = () => {
         <Marker position={myBusinessLocation}>
           <Popup>
             <strong>BROTHERS GARTEN-LANDSCHAFTSBAU</strong> <br />
-            Grünstr. 10<br />
-            37632 Holzminden<br />
+            Grünstraße 10<br />
+            37632 Eschershausen<br />
             +49 1577 9878532<br />
             brothersgartenbau@gmail.com
           </Popup>
@@ -78,11 +78,11 @@ const GardenMap = () => {
     </div>
 
     <div style={{ width: "40%", marginTop: "90px", marginLeft: "20px" }}>
-      <h2>Our Location</h2>
+      <h2>Unser Standort</h2>
       <p>
-        Address: Grünstr. 10, 37632 Holzminden<br />
-        Phone: +49 1577 9878532<br />
-        Email: brothersgartenbau@gmail.com
+        Adresse: Grünstraße 10, 37632 Eschershausen<br />
+        Telefon: +49 1577 9878532<br />
+        E-Mail: brothersgartenbau@gmail.com
       </p>
     </div>
     </div>

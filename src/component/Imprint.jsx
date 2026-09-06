@@ -6,9 +6,9 @@ const Impressum = () => {
       <h1 style={{ color: '#2d5a27' }}>Impressum</h1>
       
       <p><strong>BROTHERS Garten-Landschaftsbau</strong><br />
-      Grünstr. 10<br />
-      37632 Holzminden<br />
-      {/* Holzminden ist die korrekte Stadt */}</p>
+      Grünstraße 10<br />
+      37632 Eschershausen<br />
+      {/* Eschershausen ist die korrekte Stadt (PLZ 37632 gehört zu Eschershausen, nicht zur Stadt Holzminden selbst) */}</p>
 
       <h3>Kontakt</h3>
       <p>E-Mail: brothersgartenbau@gmail.com<br />

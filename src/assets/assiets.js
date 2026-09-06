@@ -92,16 +92,18 @@ export const icons = [
 ];
 
 
-// NOTE: These coordinates were set for the old "Mardieksweg 39, 37627
-// Stadtoldendorf" address. The Impressum address (Grünstr. 10, 37632
-// Holzminden) is now the confirmed correct one, but that postal code
-// belongs to villages near Holzminden (e.g. Holzen/Eimen), not the
-// town of Holzminden itself (37603) — please verify these lat/long
-// values point at the actual business location before relying on the
-// map pin.
+// Confirmed address: Grünstraße 10, 37632 Eschershausen (in the
+// Scharfoldendorf district of Eschershausen). Postal code 37632
+// belongs to the town of Eschershausen, not the town of Holzminden
+// itself (37603) — Holzminden is the name of the surrounding
+// district (Landkreis), which caused earlier confusion.
+// These coordinates are Eschershausen town-center level (verified via
+// search), not exact street-level geocoding for Grünstraße 10 — close
+// enough for a map pin, but worth double-checking against Google Maps
+// if pinpoint accuracy matters.
 export const businessLocation = {
-        Latitude: 51.85966,
-        Longitude: 9.58552,
+        Latitude: 51.917,
+        Longitude: 9.650,
 }
         
 

@@ -8,7 +8,7 @@ const Hero = () => {
       <img src={serviceData[7].image} alt="Gartengestaltung von BROTHERS GARTEN-LANDSCHAFTSBAU" />
       <div className="hero-text">
         <h2>Handwerk, das im Garten bleibt</h2>
-        <p>Von der ersten Skizze bis zum letzten Stein – wir setzen Ihre Gartenprojekte in Holzminden und Umgebung mit Sorgfalt und Erfahrung um.</p>
+        <p>Von der ersten Skizze bis zum letzten Stein – wir setzen Ihre Gartenprojekte in Eschershausen und Umgebung mit Sorgfalt und Erfahrung um.</p>
       </div>
     </div>
   )

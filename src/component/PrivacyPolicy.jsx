@@ -368,8 +368,8 @@ const PrivacyPolicy = () => {
         <p>
           BROTHERS Garten-Landschaftsbau
           <br />
-          Grünstr. 10<br />
-          37632 Holzminden
+          Grünstraße 10<br />
+          37632 Eschershausen
           <br />
           <br />
           Email: brothersgartenbau@gmail.com

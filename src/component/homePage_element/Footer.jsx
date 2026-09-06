@@ -47,7 +47,7 @@ const Footer = () => {
       <div className="footer-contact">
         <a href="mailto:brothersgartenbau@gmail.com"><p>brothersgartenbau@gmail.com</p></a>
         <a href="tel:+4915779878532"><p>+49 1577 9878532</p></a>
-        <p><span>Grünstr. 10</span><br />37632 Holzminden</p>
+        <p><span>Grünstraße 10</span><br />37632 Eschershausen</p>
       </div>
       
       <div className="footer-links">
